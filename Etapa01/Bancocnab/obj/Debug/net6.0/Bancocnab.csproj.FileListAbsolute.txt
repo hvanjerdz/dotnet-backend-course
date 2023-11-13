@@ -1,0 +1,15 @@
+/home/bis/Projects/Bancocnab/bin/Debug/net6.0/Bancocnab
+/home/bis/Projects/Bancocnab/bin/Debug/net6.0/Bancocnab.deps.json
+/home/bis/Projects/Bancocnab/bin/Debug/net6.0/Bancocnab.runtimeconfig.json
+/home/bis/Projects/Bancocnab/bin/Debug/net6.0/Bancocnab.dll
+/home/bis/Projects/Bancocnab/bin/Debug/net6.0/ref/Bancocnab.dll
+/home/bis/Projects/Bancocnab/bin/Debug/net6.0/Bancocnab.pdb
+/home/bis/Projects/Bancocnab/obj/Debug/net6.0/Bancocnab.csproj.AssemblyReference.cache
+/home/bis/Projects/Bancocnab/obj/Debug/net6.0/Bancocnab.GeneratedMSBuildEditorConfig.editorconfig
+/home/bis/Projects/Bancocnab/obj/Debug/net6.0/Bancocnab.AssemblyInfoInputs.cache
+/home/bis/Projects/Bancocnab/obj/Debug/net6.0/Bancocnab.AssemblyInfo.cs
+/home/bis/Projects/Bancocnab/obj/Debug/net6.0/Bancocnab.csproj.CoreCompileInputs.cache
+/home/bis/Projects/Bancocnab/obj/Debug/net6.0/Bancocnab.dll
+/home/bis/Projects/Bancocnab/obj/Debug/net6.0/ref/Bancocnab.dll
+/home/bis/Projects/Bancocnab/obj/Debug/net6.0/Bancocnab.pdb
+/home/bis/Projects/Bancocnab/obj/Debug/net6.0/Bancocnab.genruntimeconfig.cache
