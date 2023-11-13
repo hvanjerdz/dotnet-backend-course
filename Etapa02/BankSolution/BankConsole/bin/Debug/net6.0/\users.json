@@ -1,0 +1,17 @@
+[
+  {
+    "ID": 1,
+    "Name": "John",
+    "Email": "john@gmail.com",
+    "Balance": 40.8,
+    "RegisterDate": "2023-11-12T23:14:31.6237372-06:00"
+  },
+  {
+    "Department": "IT",
+    "ID": 2,
+    "Name": "Peter",
+    "Email": "peter@gmail.com",
+    "Balance": 2100.00,
+    "RegisterDate": "2023-11-12T23:14:31.6653763-06:00"
+  }
+]

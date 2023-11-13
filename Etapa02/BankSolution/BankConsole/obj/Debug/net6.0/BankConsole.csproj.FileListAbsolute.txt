@@ -1,0 +1,17 @@
+/home/bis/Downloads/schoolStuff/FCFM_V/CDIS/dotnet/CursoNET/BankSolution/BankConsole/bin/Debug/net6.0/BankConsole
+/home/bis/Downloads/schoolStuff/FCFM_V/CDIS/dotnet/CursoNET/BankSolution/BankConsole/bin/Debug/net6.0/BankConsole.deps.json
+/home/bis/Downloads/schoolStuff/FCFM_V/CDIS/dotnet/CursoNET/BankSolution/BankConsole/bin/Debug/net6.0/BankConsole.runtimeconfig.json
+/home/bis/Downloads/schoolStuff/FCFM_V/CDIS/dotnet/CursoNET/BankSolution/BankConsole/bin/Debug/net6.0/BankConsole.dll
+/home/bis/Downloads/schoolStuff/FCFM_V/CDIS/dotnet/CursoNET/BankSolution/BankConsole/bin/Debug/net6.0/ref/BankConsole.dll
+/home/bis/Downloads/schoolStuff/FCFM_V/CDIS/dotnet/CursoNET/BankSolution/BankConsole/bin/Debug/net6.0/BankConsole.pdb
+/home/bis/Downloads/schoolStuff/FCFM_V/CDIS/dotnet/CursoNET/BankSolution/BankConsole/obj/Debug/net6.0/BankConsole.csproj.AssemblyReference.cache
+/home/bis/Downloads/schoolStuff/FCFM_V/CDIS/dotnet/CursoNET/BankSolution/BankConsole/obj/Debug/net6.0/BankConsole.GeneratedMSBuildEditorConfig.editorconfig
+/home/bis/Downloads/schoolStuff/FCFM_V/CDIS/dotnet/CursoNET/BankSolution/BankConsole/obj/Debug/net6.0/BankConsole.AssemblyInfoInputs.cache
+/home/bis/Downloads/schoolStuff/FCFM_V/CDIS/dotnet/CursoNET/BankSolution/BankConsole/obj/Debug/net6.0/BankConsole.AssemblyInfo.cs
+/home/bis/Downloads/schoolStuff/FCFM_V/CDIS/dotnet/CursoNET/BankSolution/BankConsole/obj/Debug/net6.0/BankConsole.csproj.CoreCompileInputs.cache
+/home/bis/Downloads/schoolStuff/FCFM_V/CDIS/dotnet/CursoNET/BankSolution/BankConsole/obj/Debug/net6.0/BankConsole.dll
+/home/bis/Downloads/schoolStuff/FCFM_V/CDIS/dotnet/CursoNET/BankSolution/BankConsole/obj/Debug/net6.0/ref/BankConsole.dll
+/home/bis/Downloads/schoolStuff/FCFM_V/CDIS/dotnet/CursoNET/BankSolution/BankConsole/obj/Debug/net6.0/BankConsole.pdb
+/home/bis/Downloads/schoolStuff/FCFM_V/CDIS/dotnet/CursoNET/BankSolution/BankConsole/obj/Debug/net6.0/BankConsole.genruntimeconfig.cache
+/home/bis/Downloads/schoolStuff/FCFM_V/CDIS/dotnet/CursoNET/BankSolution/BankConsole/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/bis/Downloads/schoolStuff/FCFM_V/CDIS/dotnet/CursoNET/BankSolution/BankConsole/obj/Debug/net6.0/BankConsole.csproj.CopyComplete
