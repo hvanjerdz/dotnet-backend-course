@@ -55,4 +55,43 @@ public static class Storage {
 
         return newUsersList; 
     }
+
+    public static string DeleteUser(int ID)
+    {
+        string usersInFile = "";
+        var listUsers = new List<User>();
+
+        if(File.Exists(filePath))
+            usersInFile = File.ReadAllText(filePath);
+
+        var listObjects = JsonConvert.DeserializeObject<List<object>>(usersInFile);
+
+        if(listObjects == null)
+            return "No hay usuarios en el archivo.";
+
+        foreach(object obj in listObjects)
+        {
+            User newUser;
+            JObject user = (JObject)obj;
+
+            if(user.ContainsKey("TaxRegime"))
+                newUser = user.ToObject<Client>();
+            else
+                newUser = user.ToObject<Employee>();
+
+            listUsers.Add(newUser);
+        }
+
+        var userToDelete = listUsers.Where(user => user.GetID() == ID).Single();
+
+        listUsers.Remove(userToDelete);
+
+        JsonSerializerSettings settings = new JsonSerializerSettings { Formatting = Formatting.Indented };
+        
+        string json = JsonConvert.SerializeObject(listUsers, settings);
+
+        File.WriteAllText(filePath, json);
+
+        return "Success";
+    }
 }

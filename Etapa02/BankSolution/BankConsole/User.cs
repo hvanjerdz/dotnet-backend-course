@@ -27,6 +27,11 @@ public class User {
         this.RegisterDate = DateTime.Now;
     }
 
+    public int GetID()
+    {
+        return ID;
+    }
+
     public DateTime GetRegisterName()   {
         return RegisterDate;
     }
