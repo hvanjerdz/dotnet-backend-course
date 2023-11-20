@@ -28,27 +28,37 @@ public class AccountController: ControllerBase  {
     }
 
     [HttpPost]
-    public IActionResult Create(int accountId, Account account)  {
+    public IActionResult Create(int id, Account account)  {
 
-        var newAccount = _service.Create(account);
+        //var newAccount = _service.Create(account);
 
-        return CreatedAtAction(nameof(GetById), new { id = newAccount.Id}, newAccount);
+        try
+            {
+            var newAccount = _service.Create(account);
+            return CreatedAtAction(nameof(GetById), new { id = newAccount.Id}, newAccount);
+            }
+        catch (ArgumentException)
+            {
+            return BadRequest();
+            }
     }
 
     [HttpPut("{id}")]
     public IActionResult Update(int id, Account account) {
-        if(id != account.Id)
-            return BadRequest();
-        
-        var accountToUpdate = _service.GetById(id);
 
-        if(accountToUpdate is not null)  {
+        if (id != account.Id)
+            return BadRequest();
+
+    try
+        {
             _service.Update(id, account);
             return NoContent();
         }
-        else    {
-            return NotFound();
+    catch (ArgumentException)
+        {
+            return BadRequest();
         }
+
     }
 
     [HttpDelete("{id}")]
